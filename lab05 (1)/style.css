@@ -112,3 +112,19 @@ button {
 .high-contrast button {
     color: black;
 }
+
+.dyslexia-mode h2 {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 100px;
+    color: black;
+    font-weight: bold;
+}
+
+.dyslexia-mode p {
+    margin-left: 100px;
+    margin-right: 100px;
+    word-spacing: 30px;
+    line-height: 70px;
+    font-variant-ligatures: none;
+}

@@ -1,15 +1,15 @@
-font_size = 1.1;
+font_size = 1.5;
 
 const makeBigger = () => {
    font_size += 0.2;
    document.querySelector(".content").style.fontSize = `${font_size}em`;
-   document.querySelector(".content").style.fontSize = `${font_size}em`;
+   document.querySelector("header").style.fontSize = `${font_size}em`;
 };
 
 const makeSmaller = () => {
    font_size -= 0.2;
    document.querySelector(".content").style.fontSize = `${font_size}em`;
-   document.querySelector(".content").style.fontSize = `${font_size}em`;
+   document.querySelector("header").style.fontSize = `${font_size}em`;
 };
 
 
